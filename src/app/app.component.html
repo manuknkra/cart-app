@@ -13,6 +13,8 @@
     <ul *ngIf="cartItems">
       <li class="cartItem" *ngFor="let item of cartItems">
         <img src="{{item.img_url}}" />
+        <p>{{item.img_url}}</p>
+        <p>Rs {{item.price}}</p>   
       </li>
     </ul>
   </div>
